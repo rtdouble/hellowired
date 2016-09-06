@@ -415,6 +415,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     font-size: 1em;
+    padding-left: 10px;
 }
 
 .view-all-acc img {
