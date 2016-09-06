@@ -403,7 +403,7 @@ header {
 .promo-bot-txt {
     display: flex;
     align-items: center;
-    font-size: 19px;
+    font-size: 1.25em;
     margin-right: 30px;
 }
 
@@ -414,7 +414,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 .view-all-acc img {
