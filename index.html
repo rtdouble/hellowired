@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hellowired</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script src="js/jquery-2.2.3.min.js"></script>
+        <script src="js/library.js"></script>
+
+    </head>
+    <body>
+
+        <div class="wrapper">  
+            <header>
+
+                <!--  ЛОГО И СИСТЕМНЫЕ ССЫЛКИ -->
+
+                <nav class="top-link">
+                    <span class="top-link-welcome">Welcome to wiredstore</span>
+                    <a href="#order-status" title="Order status">Order status</a> |
+                    <a href="#customer-service" title="Customer service">Customer service</a> |
+                    <a href="#find-a-store" title="Find a store">Find a store</a>
+                    <div class="system-link-wrapper">
+                        <span class="system-link"></span><a href="#">My Account</a>
+                        <span class="system-link"></span><a href="#">My Wishlist</a>
+                        <span class="system-link"></span><a href="#">My Cart</a>
+                        <span class="system-link"></span><a href="#">Checkout</a>
+                        <span class="system-button" data-button-type="log-in"><span class="system-link"></span>Log In</span>
+                    </div>
+                </nav>
+
+                <!--  /ЛОГО И СИСТЕМНЫЕ ССЫЛКИ -->
+
+                <!-- ГЛАВНОЕ МЕНЮ -->
+
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#furniture">Furniture</a></li>
+                            <li><a href="#electronics">Electronics</a></li>
+                            <li><a href="#apparel">Apparel</a></li>
+                            <li><a href="#cell-phones">Cell-Phones</a></li>
+                            <li><a href="#cameras">Cameras</a></li>
+                            <li><a href="#computers">Computers</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search">
+                        <input class="search-inp search-elm" type="text" value="">
+                        <span class="search-img search-elm"></span>
+                        
+                    </div>
+                </div>
+
+                <!-- /ГЛАВНОЕ МЕНЮ -->
+
+                <!-- ГЛАВНЫЙ СЛАЙДЕР -->
+                <div class="contents">
+
+                </div>
+
+                <div class="slider menu-add">
+                    <div class="slider-img-wrapper">
+                        <img src="images/slider/slider001.jpg" alt="slider001">
+                    </div>
+                    <div class="slider-img-wrapper">
+                        <img src="images/slider/slider002.jpg" alt="slider002">
+                    </div>
+                    <div class="slider-img-wrapper">
+                        <img src="images/slider/slider003.jpg" alt="slider003">
+                    </div>
+                    <div class="slider-text">
+                        <input type="button" value="Next" onclick="myNext();">
+                        <a href="#browse_all">
+                            <span>Browse all our Kitchens sets</span>
+                        </a>
+                        <a href="#browse_all">
+                            <img src="images/slider/button.png" alt="button">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- /ГЛАВНЫЙ СЛАЙДЕР -->
+
+                
+
+                <div class="promotion promotion-1 menu-add">
+                    <img src="images/promotion/promotion001.jpg" alt="">
+                        <div class="promotion-item-text">
+                            <span>MODERN LOUNGE SETS</span>
+                            <a href="images/promotion/promotion001.jpg"><img src="images/slider/button.png" alt=""></a>
+                        </div>
+                        <div class="sale-img">
+                            <span>SALE</span>
+                        </div>
+                </div>
+                <div class="promotion menu-add">
+                    <img src="images/promotion/promotion002.jpg" alt="">
+                        <div class="promotion-item-text">
+                            <span>MODERN OFFICE SETS</span>
+                            <a href="images/promotion/promotion002.jpg"><img src="images/slider/button.png" alt=""></a>
+                        </div>
+                        <div class="sale-img">
+                            <span>SALE</span>
+                        </div>              
+                </div>
+
+                <div class="float-stop">
+                </div>  
+
+                <div class="promotion-add">
+                    <div class="promotion-add-item1 promotion-add-item">
+                        <img src="images/promotion-add/promotion1.jpg">
+                            <div class="promo-add-text promo-add-text">
+                                <span><span class="procent">25% </span>OFF BATHROOM SETS</span>
+                                <a href="images/promotion-add/promotion1.jpg"><img src="images/slider/button.png" alt=""></a>
+                            </div>
+                    </div>
+                    <div class="promotion-add-item2 promotion-add-item">
+                        <img src="images/promotion-add/promotion2.jpg">
+                            <div class="promo-add-text promo-add-text">
+                                <span><span class="procent">15% </span>OFF BADROOM SETS</span>
+                                <a href="images/promotion-add/promotion2.jpg"><img src="images/slider/button.png" alt=""></a>
+                            </div>
+                    </div>
+                    <div class="promotion-add-item3">
+                        <img src="images/promotion-add/promotion3.jpg" alt="Brands">
+                    </div>
+
+                </div>  
+
+                <div class="promotion-bottom">
+                    <div class="promo-bot-txt">
+                        <span><b>SAVE UP TO 50% OFF - </b>From accessories to furniture, enjoy savin on over 50 items
+                        </span>
+                    </div>
+                    <div class="view-all-acc">
+                        <span><b>VIEW ALL ACCESSORIES</b></span>
+                        <a href="#accessories"><img src="images/slider/button.png" alt=""></a>
+                    </div>
+                </div>  
+
+                <!-- НИЖНИЙ СЛАЙДЕР -->
+
+            <div class="bottom-content">
+                <div class="slider-bottom">
+                    <div class="slider-btn slider-btn-left">
+                    </div>
+                    <div class="slider-elm slider-view">
+                        <div class="slider-tape">
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image1.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image2.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image3.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image4.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image5.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image1.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image2.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image3.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image4.jpg">
+                            </div>
+                            <div class="slider-tape-img">
+                                <img src="images/slider-bottom/image5.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-btn slider-btn-right">
+                    </div>
+
+            
+                
+                </div>  
+
+                <!-- /НИЖНИЙ СЛАЙДЕР -->
+
+                <!-- EMAIL РАССЫЛКА -->
+
+                <div class="mailing">
+                    <div class="mailing-text">
+                        <span class="stay-connected"><b>STAY CONNECTED</b></span><br>
+                        <span>Receive promotions and discounts, sign up now!</span><br>
+                        <div class="form-mailing">    
+                            <span class="mailing-img mailing-elm"></span>                            
+                            <input class="form-mailing-line" type="text" value="" placeholder="example@mail.com">
+                            <span class="mailing-send-img mailing-elm"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                <!-- /EMAIL РАССЫЛКА -->
+
+            </header>
+
+            <footer>
+                <div class="footer-links">
+                    <ul class="footer-links-text">
+                        <li>Customer Service</li>
+                        <br>
+                        <li><a href="#">Art on demand</a></li>
+                        <li><a href="#">British Gas HomeCare</a></li>
+                        <li><a href="#">California shutters</a></li>
+                        <li><a href="#">Spares &#38 Accessories</a></li>
+                        <li><a href="#">B&#38Q Growing with Suttons</a></li>
+                        <li><a href="#">Special order wallpapers</a></li>
+                    </ul>
+                    <ul class="footer-links-text">
+                        <li>Inspiration Center</li>
+                        <br>
+                        <li><a href="#">Art on demand</a></li>
+                        <li><a href="#">British Gas HomeCare</a></li>
+                        <li><a href="#">California shutters</a></li>
+                        <li><a href="#">Spares &#38 Accessories</a></li>
+                        <li><a href="#">B&#38Q Growing with Suttons</a></li>
+                        <li><a href="#">Special order wallpapers</a></li>
+                    </ul>
+                    <ul class="footer-links-text">
+                        <li>Corporate</li>
+                        <br>
+                        <li><a href="#">Art on demand</a></li>
+                        <li><a href="#">British Gas HomeCare</a></li>
+                        <li><a href="#">California shutters</a></li>
+                        <li><a href="#">Spares &#38 Accessories</a></li>
+                        <li><a href="#">B&#38Q Growing with Suttons</a></li>
+                        <li><a href="#">Special order wallpapers</a></li>
+                    </ul>
+                    <ul class="footer-links-text">
+                        <li>Information</li>
+                        <br>
+                        <li><a href="#">Art on demand</a></li>
+                        <li><a href="#">British Gas HomeCare</a></li>
+                        <li><a href="#">California shutters</a></li>
+                        <li><a href="#">Spares &#38 Accessories</a></li>
+                        <li><a href="#">B&#38Q Growing with Suttons</a></li>
+                        <li><a href="#">Special order wallpapers</a></li>
+                    </ul>
+                    <ul class="footer-links-text">
+                        <li>Support Centre</li>
+                        <br>
+                        <li><a href="#">Art on demand</a></li>
+                        <li><a href="#">British Gas HomeCare</a></li>
+                        <li><a href="#">California shutters</a></li>
+                        <li><a href="#">Spares &#38 Accessories</a></li>
+                        <li><a href="#">B&#38Q Growing with Suttons</a></li>
+                        <li><a href="#">Special order wallpapers</a></li>
+                    </ul>
+                </div>
+
+                <div class="designed-by">
+
+                <p class="copyright-text"> &copy 2008 Magento Demo Store. All Rights Reserved. </p>
+                <p class="designed-by-text"> Designed by <span> HELLOTHEMES</span></p>
+
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- HIDDEN BLOCKS -->
+        <div class="form-log-in form-dialog">
+        </div>
+        <div class="block-screen" data-button-type2="log-in2">
+        </div>
+        <!-- /HIDDEN BLOCKS -->
+
+
+    </body>
+</html>
